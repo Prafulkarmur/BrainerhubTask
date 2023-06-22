@@ -1,7 +1,7 @@
 import { Navigate, useRoutes } from "react-router-dom";
 import Dashboard from "../pages/Dashboard";
 import Login from "../pages/Login";
-import ConnectedGuestContainer, { GuestContainerContainer } from "../container/GuestContainer";
+import ConnectedGuestContainer from "../container/GuestContainer";
 import AppShell from "../layout/AppShell";
 import CartList from "../pages/CartsList";
 
